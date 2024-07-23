@@ -1,0 +1,21 @@
+{
+  "name": "get-cookies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -fr dist/* && npx tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx --watch index.ts",
+    "lint": "eslint --fix **/*.ts",
+    "test": "jest",
+    "release": "release-it"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.11",
+    "typescript": "^5.5.4"
+  }
+}
